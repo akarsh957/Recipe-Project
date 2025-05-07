@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    height: 100%;
+    width: 100%;
+    background-color: lavender;
+  }
+  
+  body {
+    width: 800px;
+    min-height: 100%;
+    margin: 0 auto;
+    background-color: snow;
+    padding: 20px;
+    border-left: 5px dotted slateblue;
+    border-right: 5px dotted slateblue;
+  }
+  
+  h1 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-size: 60px;
+    color: darkslateblue;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  h3 {
+    font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+    font-size: 24px;
+    color: slateblue;
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+  }
+  
+  nav {
+    padding-top: 20px;
+    text-align: center;
+  }
+  
+  nav a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    color: darkslateblue;
+    font-size: 20px;
+    border: 2px solid darkslateblue;
+    background-color: lavender;
+    margin: 10px;
+    padding: 20px;
+  }
+  
+  main.recipe {
+    width: 600px;
+    background-color: mediumslateblue;
+    margin: 10px auto;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  main.recipe h2 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-size: 30px;
+    color: snow;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  img {
+    display: inline-block;
+    width: 40%;
+    border: 2px solid snow;
+    margin: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-size: 15px;
+    color: snow;
+    padding: 10px;
+  }
+  
+  ol li {
+    margin-left: 30px;
+    text-align: left;
+    color: snow;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-size: 15px;
+    padding: 5px 0;
+  }
+  
